@@ -7,12 +7,14 @@
 
     font-family: "Open Sans", sans-serif;
     background-color: #F5F4F0;
+    /* align-items: center; */
 }
 
 #page {
 
     width: 1120px;
     padding: 88px 80px;
+    margin: auto;
 }
 
 #description {
@@ -71,18 +73,20 @@ ul {
     font-weight: bold;
     font-size: 16px;
 }
+
 li {
     margin-left: 24px;
 }
 
 ul li::marker {
-  color: #333333;
+    color: #333333;
 }
 
 
-#listTitle{
+#listTitle {
     font-style: bold;
 }
+
 .quebra {
     width: 100%;
     height: 1px;
@@ -95,17 +99,26 @@ ul li::marker {
 }
 
 .hist {
-    color:#0C51A7;
+    color: #0C51A7;
 }
 
-.casais  {
+.casais {
     color: #E95E10;
 }
 
-.familia  {
+.familia {
     color: #E5245E;
 }
 
 .orcamento {
     color: #591B98;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer img {
+    vertical-align: middle;
 }
