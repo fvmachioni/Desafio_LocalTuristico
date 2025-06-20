@@ -93,3 +93,19 @@ ul li::marker {
 #ending {
     text-align: center;
 }
+
+.hist {
+    color:#0C51A7;
+}
+
+.casais  {
+    color: #E95E10;
+}
+
+.familia  {
+    color: #E5245E;
+}
+
+.orcamento {
+    color: #591B98;
+}
